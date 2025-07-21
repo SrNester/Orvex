@@ -136,9 +136,9 @@ body {
 .colorBox {
     z-index: 2;
     filter: brightness(1.1);
-    transition: 2s ease;
+    transition: .3s ease;
     position: relative;
-    margin: 2px;
+    margin: 1px;
     background: #1d1d1d;
 }
 
