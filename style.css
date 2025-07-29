@@ -110,7 +110,7 @@ body {
     border: 3px solid var(--i);
     cursor: pointer;
     pointer-events: all;
-    transition: .3s;
+    transition: .1s;
     font-weight: 600;
 }
 
