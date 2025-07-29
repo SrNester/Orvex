@@ -158,6 +158,15 @@ section {
     animation: animBack 6s linear infinite;
 }
 
+@keyframes animBack {
+    0% {
+        top: 60px;
+    }
+    100% {
+        top: 120%;
+    }
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     nav {
