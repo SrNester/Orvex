@@ -126,8 +126,8 @@ body {
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(60, 1fr);
+    grid-template-rows: repeat(60, 1fr);
     background: #1d1d1d;
     filter: saturate(2);
     overflow: hidden;
@@ -136,7 +136,7 @@ body {
 .colorBox {
     z-index: 2;
     filter: brightness(1.1);
-    transition: 2s ease;
+    transition: .2s ease;
     position: relative;
     margin: 2px;
     background: #1d1d1d;
@@ -165,53 +165,5 @@ body {
     }
     100% {
         top: 120%;
-    }
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        height: auto;
-        gap: 10px;
-        padding: 20px;
-    }
-
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .textBox h1 {
-        font-size: 2rem;
-    }
-
-    .textBox p {
-        font-size: 0.95rem;
-    }
-
-    .homeBtn {
-        margin: 10px 5px;
-        padding: 10px 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .textBox h1 {
-        font-size: 1.6rem;
-    }
-
-    .textBox p {
-        font-size: 0.85rem;
-    }
-
-    nav h1 {
-        font-size: 1.8rem;
-    }
-
-    nav ul li {
-        font-size: 0.9rem;
-        padding: 8px 10px;
     }
 }
